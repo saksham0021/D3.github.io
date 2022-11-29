@@ -1,0 +1,145 @@
+*{
+    margin: 0vw;
+    padding: 0vw;
+    box-sizing: border-box;
+
+}
+header{
+  padding:3vh;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+}
+header div{
+  display:inline;
+
+}
+
+.head2 p{
+  display: inline;
+  padding: 0.5vw;
+}
+.head2{
+  float: right;
+}
+h1{
+  padding:10px 0px 0px;
+  text-align: center;
+  font-size: 50px;
+  overflow:auto;
+
+}
+hr{
+ margin: auto;
+
+}
+.bd{
+  margin-top:50px;
+  background-color:yellow;
+}
+.cont{
+
+  text-align: left;
+  margin-left: 15vw;
+
+
+}
+
+.pp .hd{
+
+  color: blue;
+
+}
+li{
+  font-size: 22px;
+  padding: 4px 0px;
+}
+span{
+  padding: 0px 8px;
+
+}
+.para{
+  padding: 50px 0px 30px;
+
+}
+strong{
+  font: "Times New Roman";
+  font-weight: bold;
+}
+.abc{
+
+  font-size: 20px;
+
+}
+.abc a:link { text-decoration: none;}
+
+.abc a{
+
+  color: black;
+  font-family: oswald;
+}
+a{
+  padding: 0px 5px
+}
+.pp p{
+  display: inline;
+}.abc a:hover,.head2 p:hover{
+
+    cursor: pointer;
+  }
+  .pp  .hide{
+      display: none;
+    }
+    .hd:hover + .hide{
+      display:contents;
+    color: red;
+    }
+.hide{
+  font-size: 30px;
+}
+.sub-menu{
+  display: none;
+}
+.sub-menu li{
+  list-style: none;
+
+}
+.head2:hover .sub-menu{
+  display: block;
+  position: absolute;
+  background-color: lightblue;
+  margin-top: 5px;
+  margin-right: 10px;
+  border-style: solid;
+
+
+
+}
+.head2:hover .sub-menu ul li a{
+  text-decoration: none;
+}
+.head2:hover .sub-menu ul li a:hover{
+  color: grey;
+}
+.fixed p{
+  padding: 0px;
+  position: fixed;
+  top: 90%;
+  bottom: 3%;
+  left: 5%;
+  right: 90%;
+  border-radius: 5px;
+
+}
+.fixed p{
+  padding: auto;
+}
+.fixed p:hover{
+  background-color: red;
+}
+.fixed p a{
+  text-decoration: none;
+}
+.fixed p a:visited{
+
+}
